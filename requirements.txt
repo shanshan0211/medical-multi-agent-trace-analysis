@@ -1,0 +1,2 @@
+# Python >= 3.10. Offline analysis and tests use the standard library only.
+# Optional PDF rendering of vector figures requires TeX/TikZ, not a Python package.

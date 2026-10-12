@@ -1,0 +1,22 @@
+# Local inputs and complete trace-derived tables must not enter Git history.
+/local_inputs/
+/paper/
+/generated_figures/
+/dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+*aiapi*
+*credentials*
+*.pem
+*.key
+*.log
+*.aux
+*.out
+*.synctex.gz
+.DS_Store
+Thumbs.db
