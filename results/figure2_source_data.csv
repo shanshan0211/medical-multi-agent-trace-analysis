@@ -1,0 +1,13 @@
+panel,family,condition_a,condition_b,endpoint,n,events_a,events_b,rd_pp,ci_low_pp,ci_high_pp,holm_p
+A,MED_EXT59_DS,debate_injected,,source_only,59,6,,,,,
+A,MED_EXT59_DS,debate_injected,,peer_post_exposure_revision_supported,59,5,,,,,
+A,MED_EXT59_DS,debate_injected,,peer_baseline_same_option_supported,59,3,,,,,
+A,MED_EXT59_GLM,debate_injected,,source_only,58,9,,,,,
+A,MED_EXT59_GLM,debate_injected,,peer_post_exposure_revision_supported,58,1,,,,,
+A,MED_EXT59_GLM,debate_injected,,peer_baseline_same_option_supported,58,5,,,,,
+B,MED_EXT59_DS,debate_injected,debate_injected_hardgate,final_target,59,14,4,-16.94915254237288,-30.720293464454162,-0.405619034492663,0.142578125
+B,MED_EXT59_GLM,debate_injected,debate_injected_hardgate,final_target,57,15,6,-15.789473684210526,-29.637416367724946,0.7479320517748134,0.28125
+B,MED_EXT59_DS,debate_injected,debate_injected_hardgate,final_correct,59,27,28,1.694915254237288,-12.257050879360726,15.303736882723184,1.0
+B,MED_EXT59_GLM,debate_injected,debate_injected_hardgate,final_correct,57,24,28,7.017543859649122,-5.825995242822271,18.557299814488953,1.0
+B,MED_EXT59_DS,debate_clean,debate_clean_hardgate,final_correct,59,30,29,-1.694915254237288,-13.049903051260783,10.049604933912065,1.0
+B,MED_EXT59_GLM,debate_clean,debate_clean_hardgate,final_correct,55,29,28,-1.8181818181818181,-13.946292081562166,10.743914879159886,1.0

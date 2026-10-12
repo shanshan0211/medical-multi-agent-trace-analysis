@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-10T13:04:16.663041+00:00",
+  "protocol": "paper/rewrite/回顾性重分析定义与处理协议_v1.md",
+  "protocol_sha256": "d52777da3e6099a105f9dd6b137d54c903149c56eb41253bf6330a980f7c82cb",
+  "successful_case_arm_records": 1549,
+  "peer_arm_records": 2400,
+  "completion_rows": 1585,
+  "issues": 0,
+  "issue_types": {},
+  "invalid_injection_records": 22,
+  "paired_tests": 76,
+  "historical_input_hashes_verified": 85,
+  "historical_inputs_unchanged": true,
+  "new_model_calls": 0,
+  "statistics": "Wilson95; conservative paired CP/Bonferroni95; exact McNemar; global Holm",
+  "raw_input_scope": "outputs/propagation/*.jsonl"
+}
