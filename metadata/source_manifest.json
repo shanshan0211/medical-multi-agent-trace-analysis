@@ -1,0 +1,293 @@
+{
+  "schema": "focused_paper_code_release_v1",
+  "manuscript_title": "Disentangling peer revision and vote-order effects in medical multi-agent decision making: a retrospective trace analysis",
+  "manuscript_source_sha256": "d1866c6689167d95f17a2063282b276ee549ab84574956e7337c44647d633f3e",
+  "new_model_calls": 0,
+  "source_root_label": "medic",
+  "files": [
+    {
+      "release_path": ".gitignore",
+      "release_sha256": "a8d09e77c90e57b14c18eeab0201279b95c0ba328630dcd36e19629a51fb4e9a",
+      "bytes": 275,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "analysis/audit_reanalysis.py",
+      "release_sha256": "64941c6199689e5cc35e1b1e3adea3a500db33a33995e55d9964ad0314ba56b6",
+      "bytes": 19928,
+      "source_path": "medic/manuscript_jbi_english/scripts/audit_manuscript.py",
+      "source_sha256": "654409a17e04d06dedd5533986b35aa6041ddc48dc1eba1a9fa1a2e12e410bac",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "analysis/build_figures.py",
+      "release_sha256": "1897ca26b5c87f2545a738123add05f68f83f62fef19ad314c1bb1567e286085",
+      "bytes": 7583,
+      "source_path": "medic/manuscript_jbi_english/scripts/build_figures.py",
+      "source_sha256": "b85da58b32c499ebbdba9c437df15a0264ebd5e5b9c2cc643f7348247466be7c",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "analysis/build_rewrite_evidence_map.py",
+      "release_sha256": "e8dea44230fb05840707d943f204d0966ede0014c381b69cba4083b6fcbca536",
+      "bytes": 3486,
+      "source_path": "medic/scripts/build_rewrite_evidence_map.py",
+      "source_sha256": "ab8215c81ef52e3115b38bdd0f6f346fca4f6f60f674a7b17183927321477a1e",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "analysis/check_summary_statistics.py",
+      "release_sha256": "d7bfafb2410bc6f03ec3caea1f7e1eaa6086ab5b6fd4ed9b1991aa898f715692",
+      "bytes": 3053,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "analysis/check_tie_policy.py",
+      "release_sha256": "2da675cd8b30834da28f6248b3e7b828f331e58690537236bc65c3843ef41cd4",
+      "bytes": 1856,
+      "source_path": "medic/manuscript_jbi_english/scripts/check_tie_policy.py",
+      "source_sha256": "ab18c513b942673e00b4366610be7e2c8788af6ea557e2b932eb6f73a03192b0",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "analysis/demo.py",
+      "release_sha256": "ccdd293bf6bb89a39fd9092dc240e5ff119b7d90e087d6f642238c1c1f8db384",
+      "bytes": 1018,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "analysis/prepare_metadata.py",
+      "release_sha256": "4a7c228d48eb8a81a191839ab5d299c77ad45c07f9fd5986f25d8eadd3fcc933",
+      "bytes": 3930,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "analysis/reanalyze_rewrite.py",
+      "release_sha256": "245e9ac47aa888f5ea70a74c46850426323bd8bd0466207579c81324fd7f6cdd",
+      "bytes": 25293,
+      "source_path": "medic/scripts/reanalyze_rewrite.py",
+      "source_sha256": "102f563c9fd13c646e3ceb9b916116d8b1941941ab158bbbcf224f8508c63e31",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "analysis/stage_inputs.py",
+      "release_sha256": "abc576fddc53980868f211e9d433b591cdc34393032aeb3922b542f4814fd10d",
+      "bytes": 3422,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "analysis/verify_release.py",
+      "release_sha256": "2c3d1ef8545b1a499462b3583a7b0ffd43e791c0f7e0e6d4a740fec1885de2b3",
+      "bytes": 2507,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "historical/conditions.py",
+      "release_sha256": "ccfaf8bdb927b8ba729f553a09ce6ff1ff05a095b6e9c3fdab918dac9ef54228",
+      "bytes": 5163,
+      "source_path": "medic/scripts/run_propagation_experiment.py",
+      "source_sha256": "5f6afbe5233294dff1fce7552d1b1d29beef9f0dc6696d9199dd59f6edbabc1c",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "historical/seal_med/__init__.py",
+      "release_sha256": "1af5f4b58f4788b8ceb161a15e6e453945e1a73ac11ae49fbcfd97a852ee3a90",
+      "bytes": 237,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "historical/seal_med/claim_firewall.py",
+      "release_sha256": "f743ad772790e92d462038ab7d4947c90a519bb82b74d89565ef4be0e31f5720",
+      "bytes": 23929,
+      "source_path": "medic/seal_med/claim_firewall.py",
+      "source_sha256": "f743ad772790e92d462038ab7d4947c90a519bb82b74d89565ef4be0e31f5720",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/exceptions.py",
+      "release_sha256": "58c93beeafd4ded1d3a5e6586688292f90fe48ff9bb3420cc9585dab15d3c473",
+      "bytes": 1044,
+      "source_path": "medic/seal_med/exceptions.py",
+      "source_sha256": "58c93beeafd4ded1d3a5e6586688292f90fe48ff9bb3420cc9585dab15d3c473",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/facts.py",
+      "release_sha256": "31c42b71261e168abafe8c9c5aed707af7fe7adae5859ff48461e8d083d0f7a8",
+      "bytes": 14366,
+      "source_path": "medic/seal_med/facts.py",
+      "source_sha256": "31c42b71261e168abafe8c9c5aed707af7fe7adae5859ff48461e8d083d0f7a8",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/ledger.py",
+      "release_sha256": "8f6983e640f784e24771ffbab82681eb63d653a7e04e2f8f4dae4ffc8c2a4a92",
+      "bytes": 13536,
+      "source_path": "medic/seal_med/ledger.py",
+      "source_sha256": "8f6983e640f784e24771ffbab82681eb63d653a7e04e2f8f4dae4ffc8c2a4a92",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/models.py",
+      "release_sha256": "119de841968078b896e5b4a396b7aa050d86449ba57f5627ba223b9fbd8c4f41",
+      "bytes": 12831,
+      "source_path": "medic/seal_med/models.py",
+      "source_sha256": "119de841968078b896e5b4a396b7aa050d86449ba57f5627ba223b9fbd8c4f41",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/orchestration.py",
+      "release_sha256": "3d9ad9a837b8d4ad274f0d7fba56e665b042d22233a6990846222aada0ab1329",
+      "bytes": 18089,
+      "source_path": "medic/seal_med/orchestration.py",
+      "source_sha256": "3d9ad9a837b8d4ad274f0d7fba56e665b042d22233a6990846222aada0ab1329",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/propagation.py",
+      "release_sha256": "3a5e13acb9a222aeb0f2b3e030271738f7db1cc80bd0e43d660391ef8cf05b48",
+      "bytes": 60569,
+      "source_path": "medic/seal_med/propagation.py",
+      "source_sha256": "3a5e13acb9a222aeb0f2b3e030271738f7db1cc80bd0e43d660391ef8cf05b48",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/registry.py",
+      "release_sha256": "70151b2995e00ce2261115a5b19fcf59d25873cdcf6007ad433f4b126f128bda",
+      "bytes": 4225,
+      "source_path": "medic/seal_med/registry.py",
+      "source_sha256": "70151b2995e00ce2261115a5b19fcf59d25873cdcf6007ad433f4b126f128bda",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "historical/seal_med/schemas.py",
+      "release_sha256": "074b43fa67785d422b4e71ccc2e268be33208e6eee88c4822b8584a9657e6ef8",
+      "bytes": 19797,
+      "source_path": "medic/seal_med/schemas.py",
+      "source_sha256": "074b43fa67785d422b4e71ccc2e268be33208e6eee88c4822b8584a9657e6ef8",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "LICENSE_STATUS.md",
+      "release_sha256": "66fb23ab4a42543e7fb2cf214b6d492de518aca582a99b0a64082d4f526f2725",
+      "bytes": 732,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "metadata/ADAPTATIONS.md",
+      "release_sha256": "ea696741409cbc4b0316ff39546952e7158b7b34c0993a4ebdf32fead0e8c2f9",
+      "bytes": 2585,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "metadata/archived_reanalysis_input_sha256.csv",
+      "release_sha256": "cd7fa9ada74b4b9c5d56e9eb90319f866b548d06be4e890be16846d394af20e9",
+      "bytes": 4268,
+      "source_path": "medic/paper/rewrite/evidence/reanalysis_input_sha256.csv",
+      "source_sha256": "cd7fa9ada74b4b9c5d56e9eb90319f866b548d06be4e890be16846d394af20e9",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "metadata/VALIDATION.md",
+      "release_sha256": "8fa86d5216d215d07646ffb78af5c55248d84f6218e81d07d424c87affee0fda",
+      "bytes": 2293,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "protocol/analysis_definitions.md",
+      "release_sha256": "daad41a1b9bd4c6c74d843fec0562c7234dda5fb992a0e2396c0c2ad5bd5c020",
+      "bytes": 4641,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "protocol/retrospective_reanalysis_protocol_original.md",
+      "release_sha256": "d52777da3e6099a105f9dd6b137d54c903149c56eb41253bf6330a980f7c82cb",
+      "bytes": 10498,
+      "source_path": "medic/paper/rewrite/回顾性重分析定义与处理协议_v1.md",
+      "source_sha256": "d52777da3e6099a105f9dd6b137d54c903149c56eb41253bf6330a980f7c82cb",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "README.md",
+      "release_sha256": "16208f7e7623e78ed3b5ef4e68024d0073b651cfe3770a15abd20246e4cd8767",
+      "bytes": 5729,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "requirements.txt",
+      "release_sha256": "f5697837aef5eb18c0bc98b39b4e05b055d96282886fe0a82181fb6e36ec3d95",
+      "bytes": 160,
+      "status": "new_release_documentation_or_tool"
+    },
+    {
+      "release_path": "results/figure1_protocol.tex",
+      "release_sha256": "e4196b50047ea084cdc75e5db35ec5625922bfcbb97d61f6aa72b23d32278550",
+      "bytes": 2547,
+      "source_path": "medic/manuscript_jbi_english/figures/figure1_protocol.tex",
+      "source_sha256": "e4196b50047ea084cdc75e5db35ec5625922bfcbb97d61f6aa72b23d32278550",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "results/figure2_results.tex",
+      "release_sha256": "7518ed1c0f9108cd5370845c402925226a44598465dbfb6be61b873dea2017ea",
+      "bytes": 6085,
+      "source_path": "medic/manuscript_jbi_english/figures/figure2_results.tex",
+      "source_sha256": "7518ed1c0f9108cd5370845c402925226a44598465dbfb6be61b873dea2017ea",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "results/figure2_source_data.csv",
+      "release_sha256": "c9c24ef4ffd07e83e06ca6bfc2b602b3c5048fcc52ad411afddfe97c719c8ffc",
+      "bytes": 1384,
+      "source_path": "medic/manuscript_jbi_english/figures/figure2_source_data.csv",
+      "source_sha256": "c9c24ef4ffd07e83e06ca6bfc2b602b3c5048fcc52ad411afddfe97c719c8ffc",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "results/reanalysis_arm_results.csv",
+      "release_sha256": "cd861d8d031bc38d070dc54707631baa4ebebf5bfcbc4fb9aacc4ca3ce22780c",
+      "bytes": 21059,
+      "source_path": "medic/paper/rewrite/evidence/reanalysis_arm_results.csv",
+      "source_sha256": "cd861d8d031bc38d070dc54707631baa4ebebf5bfcbc4fb9aacc4ca3ce22780c",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "results/reanalysis_paired_results.csv",
+      "release_sha256": "09f748689b0210608901c4061af013c19354f34bfdf1fac5bb665c3e109564fb",
+      "bytes": 22246,
+      "source_path": "medic/paper/rewrite/evidence/reanalysis_paired_results.csv",
+      "source_sha256": "fcf43cf9ff52709ec238145f6b4e17d1a01a717dd06b39c0a99800d9119b2d94",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "results/reanalysis_summary.json",
+      "release_sha256": "42e4cd1e82535050e78fa773a8d9dfc138485af9b5b655ba366466ffa7e3afe0",
+      "bytes": 676,
+      "source_path": "medic/paper/rewrite/evidence/reanalysis_summary.json",
+      "source_sha256": "42e4cd1e82535050e78fa773a8d9dfc138485af9b5b655ba366466ffa7e3afe0",
+      "status": "byte_identical_copy"
+    },
+    {
+      "release_path": "tests/test_propagation.py",
+      "release_sha256": "acd406cba1456d690fc64b4e1eeeece5d2b0472de564bea786a4c76d1e2a1cc6",
+      "bytes": 33803,
+      "source_path": "medic/tests/test_propagation.py",
+      "source_sha256": "ab52ba3c6b88bacbd5111ad936a79150845645c417fa63c360fdda4d5d1ef625",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "tests/test_reanalyze_rewrite.py",
+      "release_sha256": "a056ecaac0635afa7907a81f9977b099fa5ce20f6dd7f0c7ab008f3972a39a27",
+      "bytes": 9617,
+      "source_path": "medic/scripts/test_reanalyze_rewrite.py",
+      "source_sha256": "d5f262d5590d2793c046550993b1b34f0db13d2a093274785b4b951f9336007a",
+      "status": "documented_release_adaptation"
+    },
+    {
+      "release_path": "UPLOAD_NOTES.md",
+      "release_sha256": "7cadd62ac915ca0306df7e4366fd8f40fb1f7851d5d3afef78cbd13f63fecfa6",
+      "bytes": 1316,
+      "status": "new_release_documentation_or_tool"
+    }
+  ]
+}
